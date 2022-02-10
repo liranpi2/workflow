@@ -10,8 +10,8 @@ jobs:
           path: architecting-reliability-aws
       - uses: actions/checkout@v2
       - run: |
-          git clone https://github.com/benpiper/architecting-reliability-aws.git
           git config user.name liranpi2
+          git submodule add https://github.com/benpiper/architecting-reliability-aws architecting-reliability-aws 
           git add .
-          git commit -m "generated"
+          git commit -m "generated2"
           git push
