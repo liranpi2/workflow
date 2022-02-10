@@ -10,8 +10,8 @@ jobs:
           path: architecting-reliability-aws
       - uses: actions/checkout@v2
       - run: |
+          git clone https://github.com/benpiper/architecting-reliability-aws.git
           git config user.name liranpi2
-          git config user.email liranpi2@gmail.com
           git add .
           git commit -m "generated"
           git push
