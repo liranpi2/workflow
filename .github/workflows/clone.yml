@@ -4,13 +4,10 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - uses: actions/checkout@v2
-      - name: Checkout
-        uses: actions/checkout@v2
         with:
           repository: benpiper/architecting-reliability-aws
-          path: './'
+      - uses: actions/checkout@v2
       - run: |
           git config user.name liranpi2
           git config user.email liranpi2@gmail.com
