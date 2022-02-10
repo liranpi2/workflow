@@ -12,8 +12,8 @@ jobs:
           repository: benpiper/architecting-reliability-aws
           path: './'
       - run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config user.name liranpi2
+          git config user.email liranpi2@gmail.com
           git add .
           git commit -m "generated"
           git push
