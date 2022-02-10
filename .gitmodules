@@ -1,0 +1,3 @@
+[submodule "architecting-reliability-aws2"]
+	path = architecting-reliability-aws2
+	url = https://github.com/benpiper/architecting-reliability-aws
