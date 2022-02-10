@@ -11,3 +11,4 @@ jobs:
         with:
           repository: benpiper/architecting-reliability-aws
           path: './'
+      - run: cp -R /architecting-reliability-aws .
