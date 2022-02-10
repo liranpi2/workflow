@@ -9,4 +9,4 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - run:  git clone https://github.com/benpiper/architecting-reliability-aws.git
-      - run: cp -R /architecting-reliability-aws .
+      - run: cp -R ./architecting-reliability-aws .
