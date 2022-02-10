@@ -8,7 +8,5 @@ jobs:
       - uses: actions/checkout@v2
       - name: Checkout
         uses: actions/checkout@v2
-        with:
-          repository: benpiper/architecting-reliability-aws
-          path: './'
+      - run:  git clone https://github.com/benpiper/architecting-reliability-aws.git
       - run: cp -R /architecting-reliability-aws .
