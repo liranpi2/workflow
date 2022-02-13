@@ -1,5 +1,7 @@
 name: GitHub Actions Demo
-on: [push]
+on: 
+  workflow_dispatch:
+  
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
@@ -13,5 +15,5 @@ jobs:
           git config user.name liranpi2
           git submodule add https://github.com/benpiper/architecting-reliability-aws architecting-reliability-aws2 
           git add .
-          git commit -m "generated2"
+          git commit -m "add submodule architecting-reliability-aws"
           git push
